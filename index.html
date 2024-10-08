@@ -24,6 +24,7 @@
         }
         li {
             margin: 10px 0;
+            position: relative; /* Allow positioning for badge */
         }
         a {
             text-decoration: none;
@@ -34,7 +35,18 @@
             color: #1abc9c;
         }
         .badge-base {
-            margin-top: 20px;
+            display: none; /* Hide the badge by default */
+            position: absolute; /* Position relative to the list item */
+            top: 20px; /* Adjust the top position as needed */
+            left: 0; /* Align with the left of the item */
+            z-index: 1; /* Ensure the badge is above other content */
+            background-color: white; /* Background color of the badge */
+            border: 1px solid #ccc; /* Optional border */
+            padding: 5px; /* Optional padding */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+        }
+        li:hover .badge-base {
+            display: block; /* Show the badge on hover */
         }
     </style>
 </head>
@@ -44,22 +56,24 @@
 
     <h3>Find more about me:</h3>
     <ul>
-        <li><a href="https://www.linkedin.com/in/devaki-v-devi-69629b154">LinkedIn</a></li>
+        <li class="badge-container">
+            <span>LinkedIn</span>
+            <!-- LinkedIn Badge Code -->
+            <div class="badge-base LI-profile-badge" 
+                 data-locale="en_US" 
+                 data-size="large" 
+                 data-theme="light" 
+                 data-type="VERTICAL" 
+                 data-vanity="devaki-v-devi-69629b154" 
+                 data-version="v1">
+                <a class="badge-base__link LI-simple-link" 
+                   href="https://sg.linkedin.com/in/devaki-v-devi-69629b154?trk=profile-badge">Devaki V Devi</a>
+            </div>
+        </li>
         <li><a href="https://leetcode.com/u/devaki19/">Leetcode profile</a></li>
         <li><a href="https://drive.google.com/file/d/1YyWOdqo9DQBUhYCRXRBv7qGzT56K_tcE/view?usp=sharing">My resume</a></li>
     </ul>
 
-    <!-- LinkedIn Badge Code -->
-    <div class="badge-base LI-profile-badge" 
-         data-locale="en_US" 
-         data-size="large" 
-         data-theme="light" 
-         data-type="VERTICAL" 
-         data-vanity="devaki-v-devi-69629b154" 
-         data-version="v1">
-        <a class="badge-base__link LI-simple-link" 
-           href="https://sg.linkedin.com/in/devaki-v-devi-69629b154?trk=profile-badge">Devaki V Devi</a>
-    </div>
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 </body>
 </html>
