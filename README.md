@@ -1,4 +1,4 @@
-﻿## Hello! I am Devaki <br> (pronounced: "They've uh key")
+﻿# Hello! I am Devaki. <br/>*(pronounced: "They've - uh - key")*
 
 ### Find more about me:
 ### - [LinkedIn](https://www.linkedin.com/in/devaki-v-devi-69629b154) <br>
