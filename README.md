@@ -1,7 +1,7 @@
 ﻿# Hi there! I am Devaki. <br/>*(pronounced: "They've - uh - key")*
 
-### Find more about me:
+### You can find my academic projects and other activities on GitHub. Find more about me through:
 ### - [LinkedIn](https://www.linkedin.com/in/devaki-v-devi-69629b154) <br>
 ### - [Leetcode profile](https://leetcode.com/u/devaki19/) <br>
-### - [My resume](https://drive.google.com/file/d/1YyWOdqo9DQBUhYCRXRBv7qGzT56K_tcE/view?usp=sharing) <br>
+### - [My resume](https://drive.google.com/file/d/1-_4S09oDLBLndjYICKnyKT_xqase4bqS/view?usp=sharing) <br>
  
