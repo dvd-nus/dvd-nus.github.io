@@ -3,5 +3,4 @@
 ### You can find my academic projects and other activities on GitHub. Find more about me through:
 ### - [LinkedIn](https://www.linkedin.com/in/devaki-v-devi-69629b154) <br>
 ### - [Leetcode profile](https://leetcode.com/u/devaki19/) <br>
-### - [My resume](https://drive.google.com/file/d/1fu4TNlYWNQtAqkMnyyx6ib6Q470qKwWr/view?usp=sharing) <br>
- 
+### - [My resume](https://drive.google.com/file/d/1mp3D1ElNH1xfHHA5popu3ZLrq3Iu6-7D/view?usp=sharing) <br>
